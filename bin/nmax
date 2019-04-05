@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'nmax'
+
+count = ARGV[0].to_i
+
+Nmax.find_max_numbers(STDIN, count)
